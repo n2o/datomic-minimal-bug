@@ -1,0 +1,10 @@
+{:paths ["src/main"]
+ :deps {com.datomic/datomic-pro {:mvn/version "1.0.6344"}
+        org.clojure/clojure {:mvn/version "1.10.3"}}
+
+ :mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://repo.clojars.org/"}
+             "my.datomic.com" {:url "https://my.datomic.com/repo"}
+             "cloud-maven" {:url "s3://cloud-1fc2183a-56c5-4f05-b37d-e78b6a7daffe/maven/releases"}}
+
+ :aliases {:run {:main-opts ["-m" "run"]}}}
