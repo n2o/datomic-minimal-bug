@@ -1,0 +1,6 @@
+= Start
+
+[source,clojure]
+----
+clj -A:run
+----
